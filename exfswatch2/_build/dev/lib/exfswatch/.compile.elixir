@@ -1,0 +1,25 @@
+v2.
+{<<"_build/dev/lib/exfswatch/ebin/Elixir.ExFSWatch.Worker.beam">>,
+ 'Elixir.ExFSWatch.Worker',module,<<"lib/exfswatch/worker.ex">>,
+ ['Elixir.GenServer','Elixir.Kernel','Elixir.Protocol','Elixir.Kernel.Utils',
+  'Elixir.Module'],
+ [erlang,'Elixir.String.Chars',os,'Elixir.Path','Elixir.List.Chars',fsevents,
+  'Elixir.ExFSWatch','Elixir.System','Elixir.Port',inotifywait_win32],
+ [],nil}.
+{<<"_build/dev/lib/exfswatch/ebin/Elixir.ExFSWatch.beam">>,'Elixir.ExFSWatch',
+ module,<<"lib/exfswatch.ex">>,
+ [os,'Elixir.Logger','Elixir.Kernel','Elixir.Module'],
+ [erlang,'Elixir.String.Chars',fsevents,'Elixir.ExFSWatch.Supervisor'],
+ [],nil}.
+{<<"_build/dev/lib/exfswatch/ebin/Elixir.ExFSWatch.Supervisor.beam">>,
+ 'Elixir.ExFSWatch.Supervisor',module,<<"lib/exfswatch/supervisor.ex">>,
+ ['Elixir.Supervisor','Elixir.Kernel','Elixir.Supervisor.Spec',
+  'Elixir.Module'],
+ ['Elixir.ExFSWatch.Worker'],
+ [],nil}.
+{<<"_build/dev/lib/exfswatch/ebin/Elixir.Monitor.beam">>,'Elixir.Monitor',
+ module,<<"lib/monitor.ex">>,
+ ['Elixir.Dye','Elixir.ExFSWatch','Elixir.Kernel','Elixir.Dye.FuncImpl'],
+ [erlang,'Elixir.System','Elixir.String','Elixir.Range','Elixir.String.Chars',
+  'Elixir.ExFSWatch.Supervisor','Elixir.IO','Elixir.Enum'],
+ [],nil}.

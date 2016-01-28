@@ -1,0 +1,12 @@
+v2.
+{<<"/Users/Bartosz/warsztat/exfswatch/_build/test/lib/dye/ebin/Elixir.Dye.FuncImpl.beam">>,
+ 'Elixir.Dye.FuncImpl',module,<<"lib/dye.ex">>,
+ ['Elixir.FuncImpl','Elixir.Map','Elixir.Module',maps,'Elixir.Dye',
+  'Elixir.Kernel'],
+ [erlang,'Elixir.Macro','Elixir.Access'],
+ [],nil}.
+{<<"/Users/Bartosz/warsztat/exfswatch/_build/test/lib/dye/ebin/Elixir.Dye.beam">>,
+ 'Elixir.Dye',module,<<"lib/dye.ex">>,
+ ['Elixir.FuncImpl','Elixir.Map','Elixir.Module',maps,'Elixir.Kernel'],
+ [erlang,'Elixir.Enum','Elixir.Macro','Elixir.String.Chars','Elixir.Access'],
+ [],nil}.
